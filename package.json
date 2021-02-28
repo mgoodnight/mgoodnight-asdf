@@ -1,0 +1,17 @@
+{
+  "name": "foobar-npm-tsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "postversion": "git push origin master && git push --tags",
+    "version": "git add -A src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
+}
