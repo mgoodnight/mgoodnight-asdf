@@ -1,5 +1,5 @@
 {
-  "name": "mgoodnight-asdf",
+  "name": "@cottonq/mgoodnight-asdf",
   "version": "1.2.0",
   "description": "",
   "main": "dist/index.js",
