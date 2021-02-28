@@ -1,12 +1,16 @@
 {
   "name": "@cottonq/mgoodnight-asdf",
   "version": "1.4.0",
-  "description": "",
+  "description": "asdfasdf",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/cottonqio/mgoodnight-asdf.git"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "prepare": "npm run build",
