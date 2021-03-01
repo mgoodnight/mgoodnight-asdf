@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/cottonqio/mgoodnight-asdf.git"
+    "url": "git+https://github.com/mgoodnight/mgoodnight-asdf.git"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
